@@ -52,3 +52,9 @@ Boxplots
 - the box delineates the 25th and 75th percentile. the line down the middle represents the median
 - whiskers extend to show to range for the rest of the data, excluding outliers 
 - outliers are marked as individual points outside of the whiskers 
+
+---
+
+
+### PERCEPTUALLY AWARE VISUALIZATION 
+- 
