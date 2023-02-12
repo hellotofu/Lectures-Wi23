@@ -1,0 +1,47 @@
+### Week 4 Tues
+---
+- data science: the process of formulating a quantitative question that can be asnwered with data, collecting and cleaning the data, analyzing the data, and communicating the answer to the question to a relevant audience
+- descriptive analysis: they report the summaries without interpretation
+- exploratory: they quantify whether the discoveries are likely to hold in a new sample
+  - causal exploratory: trying to figure out how changing the average of one measurement affecs another 
+  - predictive exploratory: trying to predict measurement for individuals (can be predicted by a computer) (supervised machine learning or unsupervised machine learning) 
+    - inferential: text analysis or geospatial statistics
+- ![image](https://user-images.githubusercontent.com/82544669/218286502-a4671b64-3e3c-4a31-8eca-530c4b98b97b.png)
+- prediction (make inferences beyond info; predicting beyond data), interpolation (need smthng that goes through data points), and approximation 
+- 1)  descriptive and exploratory 
+- 2) inferences establishes relationships (classical stats, geospatial analysis, text analysis) 
+- 3) machine learning is for prediction (supervised vs unsupervised) 
+- 4) experiments best way to est. the likelihood or causality (but you cannot est causality with computational methods - only correlations along w statistical beliefs) 
+- Example: 
+  - General question 1: why isn't police response time always the same? 
+  - Data science question 1: where should police cars be stationed, account for crime levels and time of day, to make police response times equitable throughout sd?
+  - General question 2: how has covd-19 impacted students? 
+  - Data science question 2: at UCSD, is there a difference between students' grades and how they rate their classes before COVID-19 and during remote learning. due to COVID-19 
+  - ![image](https://user-images.githubusercontent.com/82544669/218286849-a600eddd-d73c-44a1-a9ec-acde3e810dd3.png)
+
+#### Inferential Analysis
+- statistical analysis to establish and quantify a relationship (what direction and how strong?) 
+- null vs alt hypothesis: 
+  - null - no effect 
+  - alt - has an effect 
+- if sample is not representative of population, you cannot do inferential analysis 
+- correlation: association between variables (pearsons correlation, chi square test, etc.) 
+- comparison of means: diference in means between variables (ANOVA, t-test, etc.)
+- regression: does change in one variable mean change in another? (simple regression, multiple regression, etc.) 
+- non-parametric tests: for when assumptions in these other 3 categories are not met (wilcoxon ranking sum test, sign test, etc.) 
+- linear regression can be used to describe a relationship (look for best fitting line between DV and IV) 
+- MODELS ARE METHEMATICAL EQUATIONS GENERATED TO REPRESENT THE REAL LIKE SITUATION (lines are models - they represent, but aren't always actual - models are approximations) 
+- linear regression can be used to determine whther a change in one variable is related to the change in the other variable 
+- the magnitude of the relationship is measures by the slope of the line 
+- effect size (beta) -- can be stimated using the slope of the line 
+- ![image](https://user-images.githubusercontent.com/82544669/218288117-320873b2-68e2-4ba9-b712-ed520c9a2dfd.png)
+- **the closer the points are to the regression line, the less uncreatin we are in our estimate**
+- ASSUMPTIONS OF LINEAR REGRESSION 
+  - 1) linear relationship 
+  - 2) no mulitcollinearity (multicollinearity - occurs when the independent variables in multiplelinear regression are too nighly correlated with e/o)
+  - 3) no auto-correlation 
+  - 4) homoscedasticy (assumption of equal/similar variances in different groups being compared) 
+  - ![image](https://user-images.githubusercontent.com/82544669/218287521-252d36a4-4d0c-45f8-bf1a-01608f7b6ddb.png)
+- p-value: the probability of getting the observed results by chance alone 
+- correlation does not equal causation - ignoring confounders will lead you to draw incorrect conclusions from ur analyses 
+
